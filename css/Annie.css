@@ -102,7 +102,7 @@ html {
 }
 body {
 /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell","Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;*/
-  font-family: "Microsoft YaHei", Ovo, Georgia, STZhongsong, serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 1rem;
   font-weight: normal;
   color: #555;
@@ -120,7 +120,7 @@ body {
 }
 .html-loading {
   width: 100%;
-  height: 60%;
+  height: 100%;
   overflow: hidden;
 }
 p {
@@ -144,7 +144,7 @@ h1 {
   font-size: 2rem;
 }
 h2 {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 h3 {
   font-size: 1.5rem;
@@ -568,14 +568,10 @@ blockquote footer cite:before {
 .cyclic div:nth-child(4) {
   -webkit-animation-delay: 0.8s;
 }
-.fixbackground {
-/* header Background parallax */
-  background-attachment: fixed;
-}
 header {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background: url("/img/pure-bg.png") repeat;
   background-size: cover;
   -webkit-animation-name: headerFade;
@@ -607,7 +603,7 @@ header {
 }
 header .mask {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
 /*遮罩效果*/
   background-color: rgba(0,0,0,0.08);
 }
@@ -615,7 +611,7 @@ header .h-header {
   position: relative;
   height: 10rem;
 /*font-family: Georgia, "Times New Roman", Times, serif;*/
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 3;
 }
 header #logo {
@@ -823,7 +819,7 @@ main {
 }
 .layout-cart .post {
   position: relative;
-  margin: 50px auto;
+  margin: 3px auto;
   width: 1200px;
 }
 .layout-cart .post a {
