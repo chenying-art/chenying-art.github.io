@@ -616,11 +616,11 @@ header .h-header {
 }
 header #logo {
   float: left;
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 header #logo a {
   border-bottom: none;
-  text-transform: uppercase;
+/*text-transform: uppercase;*/
 }
 header #logo a:hover {
   color: #b8860b;
@@ -651,7 +651,7 @@ header #navigation-show ul li .active {
   border-bottom: 1px dotted #e0e0e0;
   color: #b8860b;
   font-weight: bold;
-  font-style: italic;
+/*font-style: italic;*/
   padding-bottom: 2px;
 }
 header .h-body {
