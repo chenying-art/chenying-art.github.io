@@ -102,7 +102,7 @@ html {
 }
 body {
 /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell","Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;*/
-  font-family: Ovo, Georgia, STZhongsong, "Microsoft YaHei", serif;
+  font-family: "Microsoft YaHei", Ovo, Georgia, STZhongsong, serif;
   font-size: 1rem;
   font-weight: normal;
   color: #555;
@@ -120,7 +120,7 @@ body {
 }
 .html-loading {
   width: 100%;
-  height: 100%;
+  height: 60%;
   overflow: hidden;
 }
 p {
